@@ -19,6 +19,7 @@ export class UbysImageUploaderComponent implements OnInit {
   @Input() set image(image: Image) {
     this.images.push(image);
   }
+  
 
   public imageChangedEvent: any = '';
   public croppedImage: any = '';
